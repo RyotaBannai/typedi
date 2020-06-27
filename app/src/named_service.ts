@@ -45,3 +45,6 @@ class CoffeeMaker {
 
 let coffeeMaker = Container.get<CoffeeMaker>("coffee.maker");
 coffeeMaker.make();
+
+// somewhere in your global app parameters
+// Container.set("authorization-token", "RVT9rVjSVN");
